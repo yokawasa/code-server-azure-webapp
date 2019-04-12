@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  codeserver:
+    image: 'codercom/code-server:1.621'
+    volumes:
+     - ${WEBAPP_STORAGE_HOME}/site/wwwroot:/home/coder/project
+    ports:
+      - "80:8443"
+    entrypoint:
+      - dumb-init
+      - code-server
+      - --allow-http
+      - --no-auth  
+    restart: always
