@@ -2,7 +2,7 @@
 
 The aim of this repository is to deploy [code-server](https://github.com/codercom/code-server), VS Code running on a remote server, to [Azure Webapp for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/).
 
-> [WARNING] Code Server is unrealistically slow on Azure Webapp for Containers 
+> [WARNING] Please note that its performance is not very good on Azure Webapp for Containers
 
 ![](assets/codeserver.png)
 
