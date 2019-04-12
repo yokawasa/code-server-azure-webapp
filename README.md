@@ -1,4 +1,4 @@
-# Visual Studio Code Server for Azure Webapp
+# Visual Studio Code Server on Azure Webapp for Containers
 
 The aim of this repository is to deploy [code-server](https://github.com/codercom/code-server), VS Code running on a remote server, to [Azure Webapp for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/).
 
